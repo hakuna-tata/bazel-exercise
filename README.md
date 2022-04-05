@@ -1,4 +1,4 @@
-# bazel
+# bazel 命令
 
 ### 查看外部依赖下载的软连接目录 
 > bazel info output_base

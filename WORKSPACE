@@ -1,5 +1,5 @@
 workspace(
-  name = "bazel_space",
+  name = "bazel_zone",
   managed_directories = {
     "@npm": ["ts-zone/node_modules"],
   },
