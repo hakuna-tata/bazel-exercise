@@ -7,7 +7,7 @@ cc_library(
 )
 
 cc_binary(
-  name = "exec",
+  name = "cpp_exec",
   srcs = ["main.cpp"],
   deps = [":tool"],
 )
