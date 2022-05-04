@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "author": "hakuna-tata",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=14",
+    "npm": ">=8"
+  },
+  "workspaces": [
+    "packages/frontend-admin",
+    "packages/frontend-bff",
+    "packages/frontend-h5"
+  ],
+  "devDependencies": {
+    "@bazel/bazelisk": "^1.11.0",
+    "@bazel/ibazel": "^0.16.2",
+    "@bazel/typescript": "^5.4.2"
+  }
+}
